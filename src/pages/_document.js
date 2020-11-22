@@ -22,7 +22,6 @@ class CustomDocument extends Document {
           {/* <!-- Windows Phone --> */}
           <meta name="msapplication-navbutton-color" content="#E9F8F6" />
           {/* <!-- Primary Meta Tags --> */}
-          <title>Anza Cloud - Begin Cloud Migration</title>
           <meta name="title" content="Anza Cloud - Begin Cloud Migration" />
           <meta
             name="description"
