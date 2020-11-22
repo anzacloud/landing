@@ -20,7 +20,7 @@ const CtaTwo = () => {
             <Box sx={styles.ctaTwo.content}>
               <BlockTitle
                 sx={styles.ctaTwo.blockTitle}
-                tagline="Free tutorial"
+                tagline="Developer Friendly"
                 heading={"Quick & Easy \n deployment  \n process"}
               />
               <Text as="p" sx={styles.ctaTwo.text}>

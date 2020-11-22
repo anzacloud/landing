@@ -18,9 +18,9 @@ class CustomDocument extends Document {
             rel="stylesheet"
           />
           {/* <!-- Chrome, Firefox OS and Opera --> */}
-          <meta name="theme-color" content="#3729BE" />
+          <meta name="theme-color" content="#E9F8F6" />
           {/* <!-- Windows Phone --> */}
-          <meta name="msapplication-navbutton-color" content="#3729BE" />
+          <meta name="msapplication-navbutton-color" content="#E9F8F6" />
           {/* <!-- Primary Meta Tags --> */}
           <title>Anza Cloud - Begin Cloud Migration</title>
           <meta name="title" content="Anza Cloud - Begin Cloud Migration" />
