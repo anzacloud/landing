@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-online-course.vercel.app',
+  siteUrl: "https://anza.cloud",
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {
