@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import favicon from "assets/favicon.png";
+import favicon from "assets/favicon.ico";
 
 class CustomDocument extends Document {
   static async getInitialProps(ctx) {
