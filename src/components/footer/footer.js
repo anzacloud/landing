@@ -30,6 +30,13 @@ export default function Footer() {
         </Text>
         {/* <Text sx={styles.footer.text}>Copyright © 2020 - Anza Cloud</Text> */}
       </Box>
+      <Box>
+        <hr
+          sx={{
+            color: "#481949",
+          }}
+        />
+      </Box>
     </footer>
   );
 }

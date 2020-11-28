@@ -9,6 +9,8 @@ import {
   Button,
 } from "theme-ui";
 
+import Router from "next/router";
+
 import React from "react";
 
 import VideoBtn from "components/video-btn";
@@ -18,7 +20,7 @@ import { IoIosSearch } from "react-icons/io";
 import BannerBG from "assets/banner-bg-1-1.png";
 import BannerTextLine from "assets/banner-text-line.png";
 import BannerPattern from "assets/banner-pattern.png";
-import BannerImage from "assets/banner-image-1.png";
+import BannerImage from "assets/web-back-crop.jpg";
 import PartnerImage from "assets/brands.svg";
 
 import Typewriter from "typewriter-effect";
@@ -67,7 +69,37 @@ const Banner = () => {
               </Box>
               <Box sx={styles.banner.partner}>
                 <span>Top Clients</span>
-                <Image src={PartnerImage} alt="banner image" />
+                {/* <Image src={PartnerImage} alt="banner image" /> */}
+                <Image
+                  src="https://lystchat.com/dist/images/lc-final.png"
+                  sx={{
+                    width: "30px",
+                    cursor: "pointer",
+                    display: "flex",
+                  }}
+                />
+                <Image
+                  src="http://www.kawaimotors.com/uploads/print_logo.png"
+                  sx={{
+                    width: "120px",
+                    cursor: "pointer",
+                  }}
+                />
+                <Image
+                  onclick={() => Router.push("https://psvtrack.com")}
+                  src="https://psvtrack.com/static/media/psvtrack-logo.1201c299.png"
+                  sx={{
+                    width: "120px",
+                    cursor: "pointer",
+                  }}
+                />
+                <Image
+                  src="https://kodivisor.com/wp-content/uploads/2020/10/cropped-kodi1.png"
+                  sx={{
+                    width: "120px",
+                    cursor: "pointer",
+                  }}
+                />
               </Box>
             </Box>
           </Box>
@@ -75,7 +107,7 @@ const Banner = () => {
             <Box sx={styles.banner.imageBox}>
               <Box sx={styles.banner.imageInner}>
                 <Image src={BannerImage} alt="banner image" />
-                <VideoBtn path="L9jU-IIN0ng" />
+                {/* <VideoBtn path="https://www.youtube.com/watch?v=8nr-VnceiKI&list=PLvRSh2gPCHtkgBPnLppJQETTDrcuxdYDD&index=7&ab_channel=Graphic2u" /> */}
               </Box>
             </Box>
           </Box>
