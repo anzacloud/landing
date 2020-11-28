@@ -79,7 +79,7 @@ const Banner = () => {
                   }}
                 />
                 <Image
-                  src="http://www.kawaimotors.com/uploads/print_logo.png"
+                  src="https://www.kawaimotors.com/uploads/print_logo.png"
                   sx={{
                     width: "120px",
                     cursor: "pointer",
