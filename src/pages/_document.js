@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import favicon from "assets/favicon.ico";
+import favicon from "assets/favicon.png";
 
 class CustomDocument extends Document {
   static async getInitialProps(ctx) {
@@ -17,10 +17,14 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Coiny&display=swap"
             rel="stylesheet"
           />
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="#481949"
+          ></meta>
           {/* <!-- Chrome, Firefox OS and Opera --> */}
-          <meta name="theme-color" content="#E9F8F6" />
+          <meta name="theme-color" content="#481949" />
           {/* <!-- Windows Phone --> */}
-          <meta name="msapplication-navbutton-color" content="#E9F8F6" />
+          <meta name="msapplication-navbutton-color" content="#481949" />
           {/* <!-- Primary Meta Tags --> */}
           <meta name="title" content="Anza Cloud - Begin Cloud Migration" />
           <meta

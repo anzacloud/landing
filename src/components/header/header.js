@@ -15,10 +15,10 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className}>
         <Container sx={styles.container}>
-          {/* <Logo /> */}
-          <Heading as="h3" sx={styles.heading}>
+          <Logo />
+          {/* <Heading as="h3" sx={styles.heading}>
             AnzaCloud
-          </Heading>
+          </Heading> */}
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
               <ScrollLink

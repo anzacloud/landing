@@ -1,20 +1,22 @@
 /** @jsx jsx */
-import { jsx, Image } from 'theme-ui';
-import { Link } from 'components/link';
-import LogoDark from 'assets/logo.svg';
+import { jsx, Image } from "theme-ui";
+import { Link } from "components/link";
+import LogoDark from "assets/logo.svg";
+import LogoMain from "assets/anza-dark-long.png";
 
 export default function Logo() {
   return (
     <Link
       path="/"
       sx={{
-        variant: 'links.logo',
-        display: 'flex',
-        alignItems: 'center',
-        cursor: 'pointer',
+        // variant: "links.logo",
+        width: "250px",
+        display: "flex",
+        alignItems: "center",
+        cursor: "pointer",
       }}
     >
-      <Image src={LogoDark} alt="startup landing logo" />
+      <Image src={LogoMain} alt="anza cloud logo" />
     </Link>
   );
 }

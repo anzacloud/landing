@@ -83,7 +83,7 @@ const styles = {
       marginBottom: "14px",
     },
     text2: {
-      fontFamily: "Coiny",
+      // fontFamily: "Coiny",
       marginTop: "40px",
       fontSize: "14px",
       cursor: "pointer",
